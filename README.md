@@ -6,4 +6,4 @@ AI Agent Hackathon 2024で開発したPresioのソースコード公開用リポ
 
 ## アプリ起動
 
-[http://localhost:7860/?__theme=light](http://localhost:7860/?__theme=light)
+[https://presio-706419024594.asia-northeast1.run.app/?__theme=light](https://presio-706419024594.asia-northeast1.run.app/?__theme=light)
