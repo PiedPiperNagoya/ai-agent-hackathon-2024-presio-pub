@@ -1,0 +1,84 @@
+/* デザイン用の追加CSS */
+gradio-app {
+    color-scheme: light !important;
+    background-color: #F5F7FC !important; /* 背景色を設定 */
+    color: #000000 !important; /* 必要に応じて文字色も設定 */
+    min-height: 100vh; /* 背景を全体に適用する */
+    color-scheme: light !important;
+}
+
+/* ログイン画面 */
+#group_login {
+    margin: auto;
+    width: 75vh;
+}
+
+/* ログインメッセージ */
+#markdown_login_msg {
+    text-align: center;
+}
+
+/* デザイン用の追加CSS */
+#tab_output-button[aria-selected="false"] {
+    color: gray !important;
+}
+#tab_output-button[aria-selected="false"]:hover {
+    color: black !important; /* 文字色を白に */
+    background-color: #F5F7FC !important; /* 背景色を黒に */
+}
+
+#upload_reference_files,
+#upload_video {
+    height: 130px;
+}
+
+#select_reference_files,
+#select_video{
+    height: 100px;
+}
+
+#file_input {
+    display: none;
+}
+
+#center {
+    display: flex;
+    justify-content: center;  /* 横方向の中央揃え */
+    align-items: center;      /* 縦方向の中央揃え */
+    height: 100%;             /* 高さを100%に設定 */
+}
+
+.input-group{
+    background-color: inherit;  /* Bodyの背景色を継承 */
+    background-color: #F5F7FC !important;
+    border: none
+}
+
+.input-row{
+    background-color: inherit;  /* Bodyの背景色を継承 */
+    background-color: #F5F7FC !important;
+    border: none
+}
+
+.file-input-row {
+    display: flex;
+    justify-content: center;  /* 横方向の中央揃え */
+    align-items: center;      /* 縦方向の中央揃え */
+    height: 100%;             /* 高さを100%に設定 */
+    background-color: inherit;  /* Bodyの背景色を継承 */
+    background-color: #F5F7FC !important;
+    border: none
+}
+
+
+/* Markdown 編集/出力画面 */
+#edit_markdown,
+#output_markdown,
+#output_slide {
+    height: 50vh;
+}
+
+/* footerの非表示 */
+footer {
+    display: none !important;
+}
